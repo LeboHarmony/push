@@ -21,11 +21,9 @@ int			sort_b_big_or_small(t_list **a, t_list **b)
 
 int			pos_for_b(t_list **a, t_list **b)
 {
-	//int		i;
 	t_list	*temp;
 	int		pos;
 
-	//i = 0;
 	pos = 0;
 	temp = *b;
 	if (a)
@@ -47,10 +45,8 @@ int			pos_for_b(t_list **a, t_list **b)
 int			rb_x_amount(t_list **b, int pos)
 {
 	int i;
-	//int tot;
 
 	i = pos;
-	//tot = tot_b(*b);
 	while (pos != 0)
 	{
 		rotate_b(b);

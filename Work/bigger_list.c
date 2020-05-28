@@ -5,12 +5,10 @@ int		j_handle_while_range(t_list **a, t_list **b, int range, int chunk)
 	int tot;
 	int local_max;
 	int i;
-	//int pos;
 
 	tot = tot_value(*a);
 	local_max = tot / 20;
 	i = 0;
-	//pos = 0;
 	while (ft_range(*a, chunk) == 1)
 	{
 		range = range_pos(*a, local_max);

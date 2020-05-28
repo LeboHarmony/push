@@ -95,7 +95,7 @@ int		main(int ac, char **av)
 	flag = (av[1][0] == '-' && av[1][1] == 'j') ? 1 : 0;
 	if (!(a = malloc(sizeof(t_list))))
 		return (0);
-	a = create_list_p(ac, av, &a); //_p
+	a = create_list_p(ac, av, &a); 
 	b = NULL;
 	if (a == NULL || ft_first_confirmed(a) == 0)
 	{
@@ -116,4 +116,3 @@ int		main(int ac, char **av)
 	ft_free(&b);
 	return (0);
 }	
-

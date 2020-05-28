@@ -28,10 +28,8 @@ int		sort_a_big_or_small(t_list **a, t_list **b)
 
 int		pos_for_a(t_list **a, t_list **b, int pos)
 {
-	//int		i;
 	t_list	*temp;
 
-	//i = 0;
 	temp = *a;
 	if (*b)
 	{

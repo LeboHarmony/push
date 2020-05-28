@@ -17,12 +17,10 @@ int		bl_handle_while_range(t_list **a, t_list **b, int range_p, int chunk)
 	int tot;
 	int local_max;
 	int i;
-	//int pos;
 
 	tot = tot_value(*a);
 	local_max = tot / 11;
 	i = 0;
-	//pos = 0;
 	while (ft_range(*a, chunk) == 1)
 	{
 		range_p = range_pos(*a, local_max);

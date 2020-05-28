@@ -3,10 +3,8 @@
 int		ra_x_amount(t_list **a, int pos)
 {
 	int i;
-	//int tot;
 
 	i = pos;
-	//tot = tot_b(*a);
 	while (pos != 0)
 	{
 		rotate_a(a);

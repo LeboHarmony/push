@@ -2,10 +2,8 @@
 
 int   range_pos(t_list *a, int local_max)
 {
-  //int pos_num;
   int i;
 
-  //pos_num = 0;
   i = -1;
   while (a)
   {
@@ -37,12 +35,10 @@ int		a_handle_while_range(t_list **a, t_list **b, int range, int chunk)
 	int tot;
 	int local_max;
 	int i;
-	//int pos;
 
 	tot = tot_value(*a);
 	local_max = tot / 5;
 	i = 0;
-	//pos = 0;
 	while (ft_range(*a, chunk) == 1)
 	{
 		range = range_pos(*a, local_max);

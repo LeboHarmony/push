@@ -15,7 +15,6 @@
 void		exit_not_num(t_list **a)
 {
 	ft_putendl("Error");
-	// ft_free(a);
 	free(*a);
 	exit(1);
 }
